@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  padding: 20px 40px;
+  background-color: rgba(179, 183, 219, 0.452);
+}
+.nav-link{
+  font-size: 17px;
+}
+.btn{
+  padding: 5px 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  margin-left: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  font-family: 'Poppins';
+}
+
+
+main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 60px 150px 0 130px;
+  height: 750px;
+  background-color: rgba(179, 183, 219, 0.452);
+}
+
+.main-r{
+  width: 50%;
+  margin-left: 70px;
+ 
+}
+.main-r img{
+  width: 96%;
+  
+} 
+.main-l{
+  width: 40%;
+  padding-top: 60px;
+  
+
+}
+.main-l span{
+  background-color: rgb(233, 205, 48);
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 4;
+
+}
+.main-l h1{
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  
+}
+/* .Oval2{
+  position: absolute;
+} */
+
+.main-l h4{
+  font-size: 18px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.527);
+  
+}
+.btn2{
+  padding: 5px 100px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.section1{
+  padding: 100px 0;
+  
+}
+.section1 h4{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 2;
+  
+}
+.section1 h1{
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 50px;
+  
+}
+.section1 p{
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.719);
+  
+}
+.section1 h2{
+ font-size: 23px;
+ font-weight: 600;
+  
+}
+.main-section{
+  padding-top: 100px;
+  /* height: 600px; */
+}
+.sectionCard{
+  padding-top: 20px;
+}
+
+
+.main-sectionr{
+  background-color:rgba(179, 183, 219, 0.452); 
+  position: relative;
+  right: 0;  
+  
+}
+.main-sectionr img{
+  position: absolute;
+  left: 0;  
+  
+}
+
+
+
+.main-sectionl h4{
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.527);
+}
+.main-sectionl h2{
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2;
+  
+}
+
+.container{
+  background-image: url(../src/Asset/lady-img.jpeg);
+  margin: 0;
+  width: 100%;
+  height: 750px;
   color: white;
+  background-size: cover;
+  background-position: center;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.specification{
+  text-align: center;
+  background-color: rgba(166, 171, 212, 0.452);
+  padding-top: 100px;
+  line-height: 3;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.specification h2{
+  font-weight: 600;
+  font-size: 35px;
 }
